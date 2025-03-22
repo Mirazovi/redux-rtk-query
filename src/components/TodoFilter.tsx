@@ -21,7 +21,7 @@ const TodoFilter = () => {
       <Button variant="outline">Filter</Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className="w-56">
-      <DropdownMenuLabel>Panel Position</DropdownMenuLabel>
+      <DropdownMenuLabel>Add to Priority</DropdownMenuLabel>
       <DropdownMenuSeparator />
       <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
         <DropdownMenuRadioItem value="high">High</DropdownMenuRadioItem>
