@@ -15,7 +15,7 @@ const TodoContainer = () => {
     </div>
     <div className='max-w-7xl mx-auto h-full bg-red-600 p-6 rounded-lg shadow'>
       {
-        value?.map(item => <TodoCart key={item.id} title={item?.title} description={item?.description} id={item.id} inCompleted={item?.inCompleted}></TodoCart>)
+        value?.map(item => <TodoCart key={item.id} title={item?.title} description={item?.description} id={item.id} isCompleted={item?.isCompleted} ></TodoCart>)
       }
     </div>
     </div>
